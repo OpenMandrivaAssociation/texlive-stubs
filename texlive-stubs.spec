@@ -49,6 +49,7 @@ used (for example) for contact information.
 %doc %{_texmfdistdir}/doc/latex/stubs/changelog.txt
 %doc %{_texmfdistdir}/doc/latex/stubs/stubs_ex.pdf
 %doc %{_texmfdistdir}/doc/latex/stubs/stubs_ex.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +60,5 @@ used (for example) for contact information.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
