@@ -1,6 +1,6 @@
 Name:		texlive-stubs
-Version:	19440
-Release:	2
+Version:	66204
+Release:	1
 Summary:	Create tear-off stubs at the bottom of a page
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/stubs
