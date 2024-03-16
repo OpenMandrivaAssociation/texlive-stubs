@@ -1,5 +1,5 @@
 Name:		texlive-stubs
-Version:	69128
+Version:	70341
 Release:	1
 Summary:	Create tear-off stubs at the bottom of a page
 Group:		Publishing
