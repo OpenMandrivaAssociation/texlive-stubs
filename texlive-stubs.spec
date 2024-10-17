@@ -3,7 +3,7 @@ Version:	70341
 Release:	1
 Summary:	Create tear-off stubs at the bottom of a page
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/stubs
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/stubs
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/stubs.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/stubs.doc.r%{version}.tar.xz
